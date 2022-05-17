@@ -12,10 +12,10 @@ def imagine (x):# create a var imagine and then pass it a random number
     while imagine != random_number: # Create a while condition
         imagine = int(input(f'Guess any number between 1 and {x}: '))
         if imagine < random_number:
-           print('Eeeh ^o^! Sorry :(, try again. Too low.')
+           print('Eeeh ^o^! Sorry :(, try again. The number was Too low.')
         elif imagine > random_number:
-           print('Eeeh ^o^! Sorry :(, try again. Too high.')
+           print('Eeeh ^o^! Sorry :(, try again. The number was Too high.')
 
     print(f'Perfect! Well Done, You imagined the number {random_number} Exactly')    
     
-   
+imagine(20)  
