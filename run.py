@@ -11,6 +11,7 @@ def imagine (x):# create a var imagine and then pass it a random number
     print("##-----------------------------##")
     while imagine != random_number: # Create a while condition
         imagine = int(input(f'Guess any number between 1 and {x}: '))
+        data_str =data_str.split(",")
         if imagine < random_number:
            print('Eeeh ^o^! Sorry :(, try again. The number was Too low.')
         elif imagine > random_number:
