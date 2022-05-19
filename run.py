@@ -5,6 +5,7 @@ def imagine (x):# create a var imagine and then pass it a random number
     imagine = 0
     # User input
     user = input("*****Please Enter You Name To Begin ->> ")
+ 
     print("Well Done And Welcome", user, "This is a Lottery Guessing Lucky Numbers Game")
     print("#########****Millions****########")
     print("##-----------------------------##")
