@@ -1,8 +1,4 @@
 import random
-import figlet 
-from pyfiglet import Figlet
-f = Figlet(font ='5lineoblique')
-print(f.renderText('Good!'))
 
 def imagine (x):# create a var imagine and then pass it a random number 
     random_number = random.randint(1, x)
@@ -18,7 +14,7 @@ def imagine (x):# create a var imagine and then pass it a random number
     print("##-----------------------------##")
     while imagine != random_number: # Create a while condition
         imagine = int(input(f'Guess any number between 1 and {x}: '))
-       # data_str =data_str.split(",")#chech how if needed???
+   
         if imagine < random_number:
            print('Eeeh ^o^! Sorry :(, try again. The number was Too low.')
         elif imagine > random_number:
