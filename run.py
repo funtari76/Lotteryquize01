@@ -52,6 +52,8 @@ def imagine (x):
            print('               -----------------                  ')
            print("--------------------------------------------------")
 
-    print(f'Perfect! Well Done, You imagined the number {random_number} Exactly')    
+    print(f'Perfect! Well Done, You imagined the number {random_number} Exactly')
+    print("------------------------------------------------------")
+    print("------------------- Thank You!.... -------------------")    
     
 imagine(20)  
