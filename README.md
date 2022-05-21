@@ -9,4 +9,16 @@ Its simple.All you have to do to start with is guess any numbers betweet X and Y
 
 # Features
 
-# Data 
+
+# Bugs
+found some via the pep8
+
+![Navigation Bar](assets/pep8results.jpeg)
+
+
+# Credits
+ 
+ https://python.plainenglish.io/building-an-old-school-text-based-game-with-python-efcc33d25a42
+
+ https://www.sourcecodester.com/python
+ 
