@@ -1,4 +1,8 @@
 import random
+import figlet 
+from pyfiglet import Figlet
+f = Figlet(font ='5lineoblique')
+print(f.renderText('Good!'))
 
 def imagine (x):# create a var imagine and then pass it a random number 
     random_number = random.randint(1, x)
@@ -8,6 +12,7 @@ def imagine (x):# create a var imagine and then pass it a random number
     user = input("*****Please Enter You Name To Begin ->> ")
     
     print("Well Done And Welcome", user, "This is a Lottery Guessing Lucky Numbers Game")
+    print("---------------------------------")
     print("#########****Millions****########")
     print("##-----------------------------##")
     print("##-----------------------------##")
